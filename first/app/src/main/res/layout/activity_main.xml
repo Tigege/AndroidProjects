@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- orientation 用来指定排列规则 -->
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="SHOW_Second_activity"
+        />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="intput some thing here"
+        />
+    <Button
+        android:id="@+id/button_3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="SHOW_EditText_information"
+        />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_1"
+        />
+    <Button
+        android:id="@+id/button_4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Changa_image"
+        />
+
+</LinearLayout>
